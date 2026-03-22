@@ -21,6 +21,28 @@ header {
   text-align: center;
 }
 
+/* 予約ボタン */
+header a{
+  display:inline-block;
+  margin-left:12px;
+  padding:10px 20px;
+
+  background:#d8a7b1;
+  color:white;
+  border-radius:30px;
+
+  text-decoration:none;
+  font-weight:bold;
+
+  transition:0.3s;
+}
+
+/* ボタンホバー */
+header a:hover{
+  background:#c48d99;
+  transform:translateY(-2px);
+}
+
 /* -------------------------
    タイトル
 ------------------------- */
